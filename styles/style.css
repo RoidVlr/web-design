@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+#bank {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    display: flex;
+    text-decoration: none;
+}
+
+.fixed-top {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,21,121,0.8970938717283788) 49%, rgba(0,87,255,1) 100%);    
+    -webkit-box-shadow: 0px 36px 27px -17px rgba(0, 33, 161, 0.44);
+    -moz-box-shadow: 0px 36px 27px -17px rgba(0, 33, 161, 0.44);
+    box-shadow: 0px 36px 27px -17px rgba(0, 33, 161, 0.44);
+}
+
+#link1 {
+    margin-top: -35px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 50%;
+    font-size: 20px;
+    color: #fff;
+    transition: .5s all;
+    text-decoration: none;
+}
+
+#link2 {
+    margin-top: -40px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 60%;
+    font-size: 20px;
+    color: #fff;
+    transition: .5s all;
+    text-decoration: none;
+}
+
+#link3 {
+    margin-top: -40px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 70%;
+    font-size: 20px;
+    color: #fff;
+    transition: .5s all;
+    text-decoration: none;
+}
+
+#link1:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+    margin-left: 54.2%;
+}
+
+#link2:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+    margin-left: 63.2%;
+}
+
+#link3:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+    margin-left: 72.2%;
+}
+
+#number {
+    margin-top: -45px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 80%;
+    font-size: 20px;
+    background-color: #2C9DDE;
+    width: 175px;
+    height: 30px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+#phone {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.container {
+    margin-left: 12%;
+}
+
+#title {
+    color: #000;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    margin-top: 100px;
+}
+
+#h2-vklad {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 40%;
+}
+
+img {
+    display: flex;
+    margin-top: -400px;
+}
+
+span {
+    color: orange;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+}
+
+#li1, #li3, #li5 {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40%;
+}
+
+#li2, #li4, #li6 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40%;
+}
+
+#bottom {
+    margin-left: -25px;
+    width: 100%;
+    height: -610px;
+    background-color: rgba(0,87,255,1);
+    margin-bottom: 0px;
+    position: absolute;
+}
+
+#bottom2 {
+    margin-left: -25px;
+    width: 100%;
+    height: -610px;
+    background-color: rgba(0,87,255,1);
+    margin-top: 15%;
+    position: absolute;
+}
+
+#bottom3 {
+    margin-left: -25px;
+    width: 100%;
+    height: -610px;
+    background-color: rgba(0,87,255,1);
+    margin-top: 15%;
+    position: absolute;
+}
+
+#inf1, #inf2, #inf3 {
+    font-size: 17px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    display: flex;
+}
+
+#inf1 {margin-left: 14%;}
+#inf2 {margin-left: 36%; margin-top: -32px;}
+#inf3 {margin-left: 66%; margin-top: -38px;}
+
+#texts {width: 85%;}
+
+input, textarea, button {font-family: 'Roboto', sans-serif;}
+
+#our_vklads {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+#btns {
+    width: 70%;
+    margin-left: .0001px;
+}
+
+#opts1 {
+    margin-left: 90px;
+}
+
+#opts2 {
+    margin-left: 10px;
+}
+
+#opts3 {
+    margin-left: 10px;
+}
+
+.col-4 {
+    width: 18%;
+    margin-left: 10px;
+}
+
+.alert {
+    background: #eff4f9;
+}

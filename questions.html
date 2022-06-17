@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вопросы банку</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/filters.css" />
+    <link rel="stylesheet" href="./styles/deposits.css" />
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/dialog-question-icon.png">
+  </head>
+  <body>
+    
+    <footer class="fixed-top">
+      <a id="bank" href="vklads.html" target="_blank">БАНК</a>
+      <a href="deposits.html" id="link1">Вклады</a>
+      <a href="" id="link2">Вопросы</a>
+      <a href="contacts.html" id="link3">Контакты</a>
+      <div id="number"><p id="phone">8 945 ХХХ-ХХ-ХХ</p></div>
+    </footer>
+    
+    <div class="container">
+
+      <h1 id="title">Вопросы</h1><br><br>
+
+      <div id="texts">
+        <input type="text" placeholder="Введите имя пользователя" class="form-control"><br>
+        <textarea placeholder="Введите вопрос" class="form-control" style="height: 270px;"></textarea><br>
+        <button class="btn btn-success">Отправить</button>
+      </div>
+        
+      <script>
+          $(document).ready(function(){
+              $('button').click(function(){
+                if ($('input').val() == false){
+                    alert('Имя пользователя не введено! Операция не может быть завершена!')
+                } else if ($('textarea').val() == false){
+                    alert('Вопрос не введён! Операция не может быть завершена!')
+                } else {
+                    alert('Ваш вопрос успешно отправлен! Мы постараемся как можно быстрее на него ответить!')
+                }
+              })
+          })
+      </script>
+
+    </div>
+    <div id="bottom2">
+      <p id="inf1">Вклады «Банка» <br> застрахованы государством </p> 
+      <p id="inf2">© «Банк», 2017 г. <br> Банковская лицензия № ХХХ, 10.09.2015</p> 
+      <p id="inf3">ул. Малая Полоцкая, дом 5, лит. В <br> Пн — Пт: 9:00 — 15:00, без перерыва. <br> Сб, Вс: выходной</p>
+      <br><br><br><br><br><br>
+    </div>
+
+
+  </body>
+</html>

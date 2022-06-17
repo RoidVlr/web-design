@@ -1,0 +1,8 @@
+.filters {
+  display: flex;
+  margin: 10px 0;
+}
+
+.filters__button {
+  margin-right: 10px;
+}

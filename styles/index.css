@@ -1,0 +1,13 @@
+body {
+  background-color: #eff4f9;
+  padding: 20px;
+}
+
+.filters__button {
+background: #0C54A0;
+border-radius: 8px;
+color: #FFFFFF;
+height: 44px;
+border: 0px;
+padding: 12px 16px;
+}
